@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fe:Invoice xmlns:fe="http://www.facturae.es/Facturae/2009/v3.2/Facturae">
+    <fe:InvoiceHeader>
+        <fe:InvoiceNumber>FAC54321</fe:InvoiceNumber>
+        <fe:InvoiceIssueData>
+            <fe:IssueDate>2025-05-10</fe:IssueDate>
+        </fe:InvoiceIssueData>
+    </fe:InvoiceHeader>
+    <fe:SellerParty>
+        <fe:LegalEntity>
+            <fe:CorporateName>Creative Labs S.A.</fe:CorporateName>
+            <fe:AddressInSpain>
+                <fe:Address>Calle de la Creatividad, 123</fe:Address>
+                <fe:Town>Valencia</fe:Town>
+                <fe:Province>Valencia</fe:Province>
+            </fe:AddressInSpain>
+        </fe:LegalEntity>
+        <fe:TaxIdentification>
+            <fe:TaxIdentificationNumber>ESB98765432</fe:TaxIdentificationNumber>
+        </fe:TaxIdentification>
+    </fe:SellerParty>
+    <fe:BuyerParty>
+        <fe:Individual>
+            <fe:Name>Laura</fe:Name>
+            <fe:FirstSurname>Martínez</fe:FirstSurname>
+        </fe:Individual>
+        <fe:TaxIdentification>
+            <fe:TaxIdentificationNumber>ESY65432109</fe:TaxIdentificationNumber>
+        </fe:TaxIdentification>
+    </fe:BuyerParty>
+    <fe:Items>
+        <fe:InvoiceLine>
+            <fe:ItemDescription>Ordenador de sobremesa Alpha</fe:ItemDescription>
+            <fe:Quantity>1</fe:Quantity>
+            <fe:UnitPriceWithoutTax>1200.00</fe:UnitPriceWithoutTax>
+            <fe:TotalCost>1200.00</fe:TotalCost>
+        </fe:InvoiceLine>
+        <fe:InvoiceLine>
+            <fe:ItemDescription>Monitor UltraWide 34"</fe:ItemDescription>
+            <fe:Quantity>1</fe:Quantity>
+            <fe:UnitPriceWithoutTax>450.00</fe:UnitPriceWithoutTax>
+            <fe:TotalCost>450.00</fe:TotalCost>
+        </fe:InvoiceLine>
+        <fe:InvoiceLine>
+            <fe:ItemDescription>Teclado mecánico</fe:ItemDescription>
+            <fe:Quantity>1</fe:Quantity>
+            <fe:UnitPriceWithoutTax>150.00</fe:UnitPriceWithoutTax>
+            <fe:TotalCost>150.00</fe:TotalCost>
+        </fe:InvoiceLine>
+    </fe:Items>
+    <fe:InvoiceTotals>
+        <fe:InvoiceTotal>1800.00</fe:InvoiceTotal>
+    </fe:InvoiceTotals>
+</fe:Invoice>

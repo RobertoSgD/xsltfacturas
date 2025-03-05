@@ -1,0 +1,115 @@
+<html lang="es" xmlns:fe="http://www.facturae.es/Facturae/2009/v3.2/Facturae">
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Factura</title>
+    <style>
+                    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 20px; background-color: #f4f7fa; }
+                    h1, h2 { color: #333; }
+                    table { width: 100%; margin-bottom: 20px; border-collapse: collapse; }
+                    th, td { padding: 12px; border: 1px solid #e0e0e0; text-align: left; }
+                    th { background-color: #00aaff; color: white; }
+                    td { background-color: white; }
+                    h1 { font-size: 2.5rem; text-align: center; margin-bottom: 30px; }
+                    h2 { font-size: 1.8rem; color: #444; margin-bottom: 15px; }
+                    .invoice-header, .invoice-summary { background-color: #ffffff; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; }
+                    .invoice-summary { margin-top: 30px; }
+                    .invoice-summary td { font-weight: bold; }
+                    .total-row td { font-size: 1.2rem; color: #d9534f; }
+                </style>
+  </head>
+  <body>
+    <h1>Factura</h1>
+    <div class="invoice-header">
+      <h2>Detalles de la Factura</h2>
+      <table>
+        <tr>
+          <th>Factura Número</th>
+          <td>FAC54321</td>
+        </tr>
+        <tr>
+          <th>Fecha de Emisión</th>
+          <td>2025-05-10</td>
+        </tr>
+      </table>
+    </div>
+    <div class="invoice-header">
+      <h2>Vendedor</h2>
+      <table>
+        <tr>
+          <th>Razón Social</th>
+          <td>Creative Labs S.A.</td>
+        </tr>
+        <tr>
+          <th>Dirección</th>
+          <td>Calle de la Creatividad, 123</td>
+        </tr>
+        <tr>
+          <th>Ciudad</th>
+          <td>Valencia</td>
+        </tr>
+        <tr>
+          <th>Provincia</th>
+          <td>Valencia</td>
+        </tr>
+        <tr>
+          <th>Número de Identificación Fiscal</th>
+          <td>ESB98765432</td>
+        </tr>
+      </table>
+    </div>
+    <div class="invoice-header">
+      <h2>Comprador</h2>
+      <table>
+        <tr>
+          <th>Nombre</th>
+          <td>Laura</td>
+        </tr>
+        <tr>
+          <th>Apellidos</th>
+          <td>Martínez</td>
+        </tr>
+        <tr>
+          <th>Número de Identificación Fiscal</th>
+          <td>ESY65432109</td>
+        </tr>
+      </table>
+    </div>
+    <div class="invoice-header">
+      <h2>Productos</h2>
+      <table>
+        <tr>
+          <th>Descripción</th>
+          <th>Cantidad</th>
+          <th>Precio Unitario</th>
+          <th>Total</th>
+        </tr>
+        <tr>
+          <td>Ordenador de sobremesa Alpha</td>
+          <td>1</td>
+          <td>1200.00</td>
+          <td>1200.00</td>
+        </tr>
+        <tr>
+          <td>Monitor UltraWide 34"</td>
+          <td>1</td>
+          <td>450.00</td>
+          <td>450.00</td>
+        </tr>
+        <tr>
+          <td>Teclado mecánico</td>
+          <td>1</td>
+          <td>150.00</td>
+          <td>150.00</td>
+        </tr>
+      </table>
+    </div>
+    <div class="invoice-summary">
+      <table>
+        <tr class="total-row">
+          <td>Total de la Factura</td>
+          <td>1800.00</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

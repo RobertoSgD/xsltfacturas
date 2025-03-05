@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fe:Invoice xmlns:fe="http://www.facturae.es/Facturae/2009/v3.2/Facturae">
+    <fe:InvoiceHeader>
+        <fe:InvoiceNumber>FAC12345</fe:InvoiceNumber>
+        <fe:InvoiceIssueData>
+            <fe:IssueDate>2025-04-15</fe:IssueDate>
+        </fe:InvoiceIssueData>
+    </fe:InvoiceHeader>
+    <fe:SellerParty>
+        <fe:LegalEntity>
+            <fe:CorporateName>Global Solutions S.L.</fe:CorporateName>
+            <fe:AddressInSpain>
+                <fe:Address>Calle del Progreso, 789</fe:Address>
+                <fe:Town>Madrid</fe:Town>
+                <fe:Province>Madrid</fe:Province>
+            </fe:AddressInSpain>
+        </fe:LegalEntity>
+        <fe:TaxIdentification>
+            <fe:TaxIdentificationNumber>ESB12345678</fe:TaxIdentificationNumber>
+        </fe:TaxIdentification>
+    </fe:SellerParty>
+    <fe:BuyerParty>
+        <fe:Individual>
+            <fe:Name>Juan</fe:Name>
+            <fe:FirstSurname>Pérez</fe:FirstSurname>
+        </fe:Individual>
+        <fe:TaxIdentification>
+            <fe:TaxIdentificationNumber>ESY98765432</fe:TaxIdentificationNumber>
+        </fe:TaxIdentification>
+    </fe:BuyerParty>
+    <fe:Items>
+        <fe:InvoiceLine>
+            <fe:ItemDescription>Laptop Z</fe:ItemDescription>
+            <fe:Quantity>1</fe:Quantity>
+            <fe:UnitPriceWithoutTax>800.00</fe:UnitPriceWithoutTax>
+            <fe:TotalCost>800.00</fe:TotalCost>
+        </fe:InvoiceLine>
+        <fe:InvoiceLine>
+            <fe:ItemDescription>Tablet W</fe:ItemDescription>
+            <fe:Quantity>3</fe:Quantity>
+            <fe:UnitPriceWithoutTax>150.00</fe:UnitPriceWithoutTax>
+            <fe:TotalCost>450.00</fe:TotalCost>
+        </fe:InvoiceLine>
+    </fe:Items>
+    <fe:InvoiceTotals>
+        <fe:InvoiceTotal>1250.00</fe:InvoiceTotal>
+    </fe:InvoiceTotals>
+</fe:Invoice>
