@@ -64,7 +64,5 @@ Para transformar un archivo XML de FacturaE en XHTML, sigue estos pasos:
 - [Guía de XSLT en MDN](https://developer.mozilla.org/en-US/docs/Web/XML/XSLT/Guides)
 - [Tutorial de XSLT de TutorialsPoint](https://www.tutorialspoint.com/xslt/index.htm)
 
-## Capturas de Pantalla
-
 
 
